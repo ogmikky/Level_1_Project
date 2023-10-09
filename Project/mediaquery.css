@@ -1,0 +1,206 @@
+@media (max-width:1023px) {
+    li{
+        display: none;
+
+    }
+    .choose{
+        display: block !important;
+     }
+    
+     #main-sec{
+        width: 100%;
+    }
+    #main-sec2{
+        width: 100%;
+    }
+    #main-sec2>div{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+
+
+    .ga button{
+        /* height: 7vh; */
+        display: block;
+        /* width: 100%; */
+        /* display: flex; */
+        /* align-content: center; */
+        justify-content: space-evenly;
+        border: none;
+    }
+    
+
+    .text-middle{
+        /* justify-content: start; */
+        align-items: start;
+        text-align: left;
+    }
+    
+   
+    .bar-code-r img{
+        width: 100%;
+
+    }
+    
+}
+
+
+
+    
+
+    
+
+@media (max-width:768px) {
+    .hero-header-r .search{
+        display: none;
+    }
+    #login{
+        display: none;
+    }
+    .hero-header-r .fa-qrcode{
+        display: none;
+    }
+    .hero-header-r .fa-globe{
+        display: none;
+    }
+   .hero-header-r #log{
+    display: none;
+   }
+
+    #main-sec{
+        width: 100%;
+        display: block;
+    }
+
+    #main-sec .user{
+        display: block;
+
+    }
+
+    #main-sec p{
+        width: 100%;
+        font-size: 64px;
+        
+    }
+    #main-sec .hero-form{
+        width: 100%;
+    }
+   #main-sec .hero-form input{
+    width: 45%;
+   }
+   #main-sec .hero-form button{
+    width: 45%;
+   }
+
+   .ga div{
+    width: 90%;
+    /* border: 1px solid orange; */
+    display: flex;
+    /* padding: 24px; */
+    gap: 1rem;
+    
+   }
+
+   .ga div .google{
+    /* border: 1px solid blue; */
+    width: 45% !important;
+   }
+   .ga div .apple{
+    /* border: 1px solid green; */
+    width: 45% !important;
+   }
+
+   .ga #log a{
+    color: rgb(243,186,47);
+   }
+
+   .ga p .app{
+     display: none;
+   }
+
+   .hero-add{
+    display: none;
+   }
+   
+
+ .lubzx-section{
+    display: block;
+    justify-content: center;
+    /* padding-left: 16px;
+    padding-right: 16px; */
+    /* border: 1px solid blue; */
+    /* background-color: grey; */
+    width: 100%;
+ }
+
+ .lubzx-left{
+    /* background-color: blue; */
+    width: 100% !important;
+ }
+
+  .lubzx-right{
+    display: none !important;
+    /* background-color: green; */
+  }
+
+  .lubzx-left h2{
+    /* border: 1px solid green; */
+    display: block !important;
+    /* align-items: center; */
+    width: 100%;
+  }
+
+   .lubz-app-img h2{
+    display: inline !important;
+    width: 100%;
+
+}
+
+.lubz-app-img .mm{
+    display: flex !important;
+    /* width: 15rem;
+    height: 9vh; */
+    /* width: 13rem; */
+    /* align-content: center; */
+    justify-content: center;
+    margin-top: 20px;
+    border: none;
+}
+.con-icon{
+    display: none !important;
+    
+}
+}
+
+
+
+
+@media (max-width:320px) {
+
+    .lubz-app-img .mm{
+        display: none;
+    }
+    .header-btn{
+        margin-right: -32px;
+    }
+    #main-sec{
+        padding: 0 !important;
+    }
+    .user{
+        width: 100% !important;
+        /* border: 1px solid blue; */
+    }
+
+    .fooster-grid{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    #altname{
+        display: none;
+    }
+
+}

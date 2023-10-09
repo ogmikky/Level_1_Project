@@ -1,0 +1,80 @@
+@media (max-width:1023px) {
+    /* ---------register mediaq------  */
+   
+
+     .head-word{
+        /* display: none !important; */
+    }
+
+    .hero-form{
+     /* width: 100%; */
+    } 
+
+    .bar-code-r h4{
+        display: flex;
+     
+    } 
+
+    .bar-code-r{
+        display: none;
+    }
+
+
+     /* ---------register mediaq------  */
+    
+}
+
+
+@media (max-width:768px) {
+
+
+   .login-main{
+        border: 1px sold green;
+        flex-direction: column-reverse;
+        margin-top: 64px;
+     }
+
+     .head-word{
+        display: none !important;
+    
+    }
+
+    .bar-code-r h4{
+        display: none !important;
+    }
+
+    .bar-code-r p{
+        display: none !important;
+    }
+
+     .login-details p{
+        width: 100% !important;
+        
+     }
+     .ga button{
+        width: 100%;
+     }
+    
+}
+
+@media (max-width:320px) {
+    .login-main{
+        /* border: 1px sold blue; */
+
+    }
+
+    .sub-head{
+        display: none;
+    }
+
+    nav{
+        display: flex !important;
+        flex: 1 1 0%;
+        width: 100%;
+    }
+
+    .sub-head p{
+    
+
+    }
+}

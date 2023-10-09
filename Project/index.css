@@ -1,0 +1,665 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: BinancePlex, Arial, sans-serif;
+    font-weight: 400;
+}
+
+header{
+        width: 100%;
+}
+
+#altname{
+    margin-bottom: 0;
+}
+
+nav{
+     /* border: 1px solid blue; */
+     display: flex;
+     min-width: 90%;
+     justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+
+.hero-header-l{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 1px solid green; */
+    
+}
+
+.hero-header-l div ul li{
+    font-size: 14px;
+}
+
+
+
+.hero-header-l div ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.hero-header-l div ul li a:hover{
+    color: rgb(243,186,47);
+
+}
+
+.hero-header-l div ul li a:hover .fa-solid{
+    color: rgb(243,186,47);
+    transform: rotate(180deg);
+}
+
+.lists ul li:hover .trade-dropdown{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+      
+}
+
+.trade-dropdown{
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 35%;
+    padding: 1em;
+    margin-left: -190px;
+    /* margin-top: 1em; */
+    padding-top: 2em;
+    gap: 1rem 2rem;
+    border-radius: 2px solid grey;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+
+.lists ul li:hover .future-dropdown{
+    display: block;
+}
+
+.future-dropdown{
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 23%;
+    padding: 1em;
+    margin-left: -100px;
+    padding-top: 1em;
+    gap: 0.5rem 1.5rem;
+    border-radius: 2px solid grey;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+
+}
+
+.lists ul li:hover .learn-dropdown{
+    display: block;
+}
+
+.learn-dropdown{
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 23%;
+    padding: 1em;
+    margin-left: -100px;
+    padding-top: 1em;
+    gap: 0.5rem 1.5rem;
+    border-radius: 2px solid grey;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.lists ul li:hover .more-dropdown{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.more-dropdown{
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 50%;
+    padding: 1em;
+    margin-left: -300px;
+    padding-top: 1em;
+    gap: 0.5rem 1.5rem;
+    border-radius: 2px solid grey;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.downimg-par{
+    background: #EAECEF;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.common-tool{
+    display: flex;
+    gap: 1.5rem;
+    box-shadow: 5em;
+
+}
+
+
+.drop-img{
+    width: 35px;
+    border: 1px solid;
+    border-radius: 50%;
+
+}
+
+.text-sz{
+    font-size: 10px;
+    /* line-height: 1; */
+}
+
+.top-line{
+   margin-bottom: 1px;
+}
+
+.fa-arrow-right{
+    color: rgb(243,186,47);
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+    /* display: none; */
+}
+
+
+.common-tool:hover .fa-arrow-right{
+    /* display: inline; */
+    visibility: visible; 
+}
+
+.hero-header-l div ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 1em;
+    gap: 0.7em;
+    
+}
+
+#main-sec{
+    /* border: 1px solid blue;   */
+    padding-left: 5rem;
+}
+
+#main-sec2 h2{
+    display: none;
+    /* border: 1px solid green; */
+}
+
+.hero-header-l .logo img{
+    width: 3rem;
+    height: 2rem;
+} 
+
+.hero-header-r{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    /* border: 3px solid red; */
+}
+
+
+#log{
+    border: none;
+}
+
+#log a{
+    text-decoration: none;
+    color: black;
+}
+
+#log a:hover{
+    color: rgba(252, 201, 107, 0.945);
+}
+
+.header-btn{
+    border-radius: 5%;
+    background-color: rgb(243,186,47);
+    cursor: pointer;
+    border: none;
+    width: 6rem;
+    height: 1.7rem;
+}
+
+
+.header-btn a{
+    color: black;
+    text-decoration: none;
+}
+
+.header-btn:hover{
+    background-color: rgba(252, 201, 107, 0.945);
+}
+
+.header-btn .fa-gift{
+    color: black;
+}
+
+
+.search{
+    position: relative;
+    cursor: pointer;
+}
+
+.search-dropdown{
+    display: none;
+    transition: all 0.5s ease-in-out ;
+}
+
+.search:hover  .search-dropdown{
+    display: block;
+}
+
+.search-dropdown{
+    position: absolute;
+    border: 2px solid;
+    padding: 2rem;
+    border-radius: 7px;
+    right: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+    background-color: white;
+    margin-left: -300px;
+    /* padding-top: 1em; */
+}
+
+.scan-qrcode{
+    position: relative;
+    cursor: pointer;
+}
+
+.scan-qrcode:hover{
+    color: rgba(252, 201, 107, 0.945);
+}
+
+.qrcode-dropdown{
+    display: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.scan-qrcode:hover .qrcode-dropdown{
+    display: block;
+}
+
+.qrcode-dropdown{
+    position: absolute;
+    align-items: center;
+    border: 2px solid;
+    border: none;
+    background-color: white;
+    margin-left: -200px;
+    /* height: 15rem; */
+    /* color: red; */
+    padding: 1.5em;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+    
+}
+
+
+.search-drop-img{
+    /* border: 3px solid; */
+    width: 15px;
+    border-radius: 50%;
+}
+
+.qrcode-dropdown button{
+    font-size: 10px;
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(243,186,47);
+    
+}
+
+.qrcode-dropdown button:hover{
+    background-color: rgba(252, 201, 107, 0.945);
+}
+
+.search-dropdown input{
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    border: solid 1px #eee;
+}
+
+.search-options:focus{
+    outline: none;
+    border: none;
+}
+
+.search-options{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    gap: 1rem;
+}
+
+.search-options div{
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background: #EAECEF;
+}
+
+.search-options div:hover{
+    background: #cfd1d4;
+    cursor: pointer;
+}
+
+.fa-magnifying-glass:hover{
+    color: rgb(243,186,47);
+}
+
+.search-dropdown ~ .fa-magnifying-glass{
+    color: rgb(243,186,47);
+}
+
+
+
+/* ----------Hero Section------- */
+
+
+#main-hero{
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-size-adjust: 100%;
+    font-weight: 500;
+}
+
+#main-sec p{
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 30px;
+}
+
+.hero-form{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.fa-gift{
+    color: rgb(243,186,47);
+}
+.hero-form input{
+    height: 7vh;
+}
+.hero-form button{
+    height: 7vh;
+    width: 9rem;
+    background-color: rgb(243,186,47);
+    border: none;
+}
+
+.hero-form button:hover{
+    background-color: rgba(255, 213, 108, 0.781);
+ 
+}
+
+
+.google{
+    border: none;
+    padding: 0.5em 1em;
+}
+.apple{
+    border: none;
+    padding: 0.5em 1.3em;
+}
+
+#main-sec .ga button{
+    width: 10.7rem;
+    height: 8vh;
+
+}
+
+
+.hero-add{
+    width: 50%;
+    border: none;
+    margin-top: 1rem;
+}
+
+.hero-add p{
+    font-size: 10px;
+}
+
+
+
+.text-middle{
+    padding-bottom: 12px;
+    width: fit-content;
+}
+
+.continue{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    column-gap: 1.8rem;
+    font-size: 12px;
+    color: grey;
+}
+
+.continue::before, .continue::after{
+    content: '';
+    height: 1px;
+    background-color: grey;
+    display: block;
+}
+
+
+
+
+/* ----------Hero Section------- */
+
+/* ---------lubzc section--------- */
+
+
+.lubzx-section{
+    display: flex;
+    /* padding-left: 5rem; */
+    /* width: 100%; */
+}
+.lubzx-left{
+    /* margin-left: 7rem; */
+    /* border: 1px solid green; */
+    width: 50%;
+}
+
+.lubzx-left h2{
+    display: none;
+}
+
+.lubz-app-img .mm{
+    display: none;
+}
+
+
+.button-three button{
+    border: none;
+    padding: 5px;
+}
+
+.button-img button{
+    display: flex;
+    align-items: center;
+    text-align: center;
+   }
+
+
+
+.lubzx-right{
+    /* margin-right: 1rem; */
+    /* border: 1px solid yellow; */
+    width: 50%;
+    display: block;
+    align-items: center;
+}
+
+.headline{
+    padding-bottom: 2.5rem;
+}
+
+.big-scan1{
+    border: 1px solid rgb(243,186,47);
+    border-radius: 5%;
+}
+
+.more-download{
+    display: flex;
+    gap: 4em;
+    font-size: 1.3rem;
+    padding-bottom: 1.2rem;
+
+}
+
+.details-bar{
+    display: flex;
+    padding-bottom: 3rem;
+    align-items: center;
+    gap: 1rem;   
+}
+
+#lubzx-img{
+   height: 65vh;
+   width: 11rem;
+}
+
+
+.lubz-app-img{
+    width: 50%;
+    display:block;
+    align-content: center;
+    /* border: 2px red solid; */
+    margin: 1rem auto;
+    
+}
+
+.button-three{
+    padding-left: 0.7rem;
+    padding-top: 2rem;
+}
+
+
+.lubz-app-img div{
+    width: 15rem;
+    /* border: 3px blue solid; */
+    gap: 2rem;
+}
+
+.lubz-app-img div img{
+   width: 100%;
+}
+
+.lubzx-right button{
+    border: none;
+    padding: 6px;
+    
+}
+
+
+.lubzx-right button:hover{
+    background-color: rgba(247, 240, 228, 0.945);
+}
+
+/* ---------End of lubzc section--------- */
+
+
+
+
+
+/* --------carousel section-------- */
+
+
+
+/* --------End of carousel section-------- */
+
+/* --------according section---- */
+
+.question-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+}
+
+
+/* ---------Verified Section--------------- */
+.vu-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    
+}
+
+
+.vu-sec button{
+    background-color: rgb(243,186,47);
+    padding: 4px 12px;
+    border: none;
+
+}
+
+
+.vu-sec button:hover{
+    background-color: rgba(255, 213, 108, 0.781);
+ 
+}
+
+
+
+/* ---------End of Verified Section--------------- */
+
+
+/* -----------footer---------------- */
+
+.fooster-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    list-style-type: none;
+    padding: 80px 24px 80px;
+}
+
+
+
+
+.fooster-grid ul li{
+   list-style-type: none;
+}
+
+.fooster-grid .dtails ul{
+    text-align: justify;
+}
+
+.icon-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+
+.fooster-grid ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+
+}
+
+.fooster-grid ul li a:hover{
+    color: rgba(255, 213, 108, 0.781);
+}
+
+/* -----------footer---------------- */

@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: BinancePlex, Arial, sans-serif !important;
+    font-weight: 450;
+}
+
+header{
+    width: 100%;
+}
+
+nav{
+    /* border: 1px solid blue; */
+    display: flex;
+    min-width: 90%;
+    justify-content: space-between;
+    height: 4rem;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+
+.logo img{
+    width: 2.4rem;
+}
+
+.icon-r{
+    display: flex;
+    align-items: center;
+    gap: 0.9em;
+    font-size: xx-small;
+    font-size: 25px;
+}
+
+/* ---------------End of header--------- */
+
+
+/* ----------------main section----------- */
+  .cherv-back h3 a{
+    text-decoration: none;
+    color: grey;
+  }
+
+  .cherv-back h3 svg{
+    /* border: 1px solid purple; */
+    display: inline;
+    align-content: center !important;
+    padding-top: 4px;
+  }
+
+ .cherv-back{
+    padding-top: 25px;
+    padding-left: 65px;
+    color: gray;
+    /* border: 1px solid blue; */
+ }
+
+
+.main-crea{
+    padding: 3rem 15rem;
+    /* border: 1px solid green; */
+    padding-top: 5rem;
+    flex: 1 1 auto;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    color: gray;
+  }
+
+  .main-crea div h1{
+    color: black;
+  }
+
+  .main-crea div{
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .main-crea p{
+    font-size: 12px;
+    font-weight: 400;
+    /* line-height: 29px; */
+    
+  }
+
+  .hero-form p a{
+    color: black;
+  }
+
+
+  .hero-form input{
+    padding: 1rem;
+    width: 100%;
+
+  }
+
+  .hero-form button{
+    background-color: rgb(243,186,47);
+    width: 100%;
+    height: 7vh;
+    border: none;
+  }
+
+.hero-form button:hover{
+    background-color: rgb(241, 206, 116);
+  }
+
+.hero-form .spec{
+    color: rgb(243,186,47);
+    /* border: 1px solid blue; */
+    text-decoration: none;
+}
+
+.hero-form .spec:hover{
+  text-decoration: underline;
+  color: rgb(206, 173, 91);
+}
+
+/* -------------End of main section------- */
+
+footer{
+    padding-top: 5rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 12px;
+  }

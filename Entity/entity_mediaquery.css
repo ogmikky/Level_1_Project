@@ -1,0 +1,31 @@
+@media (max-width:768px) {
+    .main-crea{
+        /* padding-left: 0; */
+    }
+    
+    .cherv-back h3{
+        padding: 0 !important;
+    }
+
+
+    .main-crea{
+        padding-top: 2rem !important;
+        padding: 0;
+    }
+    
+
+}
+
+
+@media (max-width:320px) {
+    .cherv-back h3{
+        padding: 0 !important;
+    }
+
+
+    .main-crea{
+        padding-top: 2rem !important;
+        padding: 0;
+    }
+    
+}

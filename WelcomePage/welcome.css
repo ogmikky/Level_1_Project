@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: BinancePlex, Arial, sans-serif !important;
+    font-weight: 400;
+}
+
+header{
+    width: 100%;
+}
+
+nav{
+    /* border: 1px solid blue; */
+    display: flex;
+    min-width: 90%;
+    justify-content: space-between;
+    height: 4rem;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+
+.logo img{
+    width: 2.4rem;
+}
+
+.icon-r{
+    display: flex;
+    align-items: center;
+    gap: 0.9em;
+    font-size: xx-small;
+    font-size: 25px;
+}
+
+/* --------------body------------ */
+
+.login-main{
+    display: flex;
+    align-items: center;
+    padding: 5rem 10rem;
+   
+}
+
+.login-details .head-word{
+    display: inline;
+    font-size: 20px;
+    line-height: 40px;
+
+  
+}
+
+.login-details{
+    /* border: 1px solid red; */
+    /* position: relative; */
+    /* padding: 2rem; */
+    /* width: 50%; */
+}
+
+.hero-form{
+    margin-bottom: 2rem;
+}
+
+.hero-form button{
+ 
+}
+
+.hero-form button{
+    /* height: 7vh; */
+    padding: 11px 80px;
+    /* width: 100%; */
+    background-color: rgb(243,186,47);
+    border: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #181a20;
+}
+
+
+.text-middle{
+    /* padding-bottom: 12px; */
+    /* width: fit-content; */
+    /* position: absolute; */
+}
+
+
+.continue{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    /* column-gap: 0.1rem; */
+    /* font-size: 12px; */
+    /* color: grey; */
+}
+
+.continue::before, .continue::after{
+    /* content: ''; */
+    /* height: 1px; */
+    /* background-color: grey; */
+    display: block;
+
+}
+
+.ga button{
+    /* height: 7vh;
+    display: block;
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* align-content: center; */
+    border: none; 
+}
+
+
+.gaa{
+    
+    padding: 11px 119px;
+    overflow: hidden;
+    border: none;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.gaa h5{
+    min-width: 100%;
+    /* border: 1px solid purple; */
+}
+
+
+.app{
+
+    padding: 11px 126px;
+    border: none;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.bar-code-r{
+    /* align-items: center; */
+    padding-left: 2rem;
+    display: block;
+    width: 50%;
+    /* border: 1px solid blue; */
+    /* position: relative; */
+
+    
+}
+
+.bar-code-r img{
+    width: 100%;
+    /* padding-bottom: 9rem ; */
+    /* height: 50vh;  */
+    
+}
+
+.login-details p{
+    color: gray;
+}
+
+.login-details p a{
+    /* list-style-type: none; */
+    text-decoration: none;
+    color: rgb(243,186,47);
+}
+
+.text-middle{
+    padding-bottom: 12px;
+    /* width: 100%; */
+    /* border: 1px solid blue; */
+}
+
+.continue{
+    /* font-size: 12px; */
+    color: grey;
+    text-align: center;
+}
+
+.continue::before, .continue::after{
+    content: '';
+    height: 1px;
+    background-color: grey;
+    display: block;
+    /* width: 5.9rem; */
+}
+
+
+.bar-code-r h4{
+    display: flex;
+    justify-content: center !important;
+    align-items:flex;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.bar-code-r p{
+    display: flex;
+    /* width: 100%; */
+    justify-content: center !important;
+    font-size: 16px;
+    font-weight: 400;
+    color: #707a8a;
+    line-height: 24px;
+}
+
+.bar-code-r p span{
+    color: rgb(243,186,47);
+}
+
+
+/* --------------End of body------------ */
+
+
+/* ----------footer----------- */
+
+ footer p a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 12px;
+    padding-bottom: 15px;
+    color: gray;
+ }
+
+/* ----------End of footer----------- */

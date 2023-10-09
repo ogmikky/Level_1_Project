@@ -1,0 +1,124 @@
+@media (max-width:1023px) {
+    /* -------register mediaq------  */
+    .login-main{
+        /* border: 1px solid green; */
+        flex-direction: column-reverse;
+        margin-top: 64px;
+     }
+
+     .head-word{
+        display: none !important;
+    
+    }
+    .hero-form{
+        width: 100%;
+    }
+
+    .bar-code-r h4{
+        display: none !important;
+    }
+    button{
+        width: 100%;
+    }
+
+    .bar-code-r p{
+        display: none !important;
+    
+    }
+
+    .bar-code-r{
+        width: 100% !important;
+    }
+     
+     .login-details p{
+        width: 100% !important;
+        
+     }
+     .ga button{
+        width: 100%;
+     }
+}
+
+/* ---------register mediaq------  */
+
+@media (max-width:768px) {
+    .bar-code-r{
+        width: 100%;
+        /* height: 50vh;  */
+        /* border: 1px solid green; */
+        
+    }
+
+    .login-main{
+        padding: 0 !important;
+    }
+
+
+    .head-word{
+        display: none !important;
+    }
+
+    button{
+        width: 100%;
+    }
+
+    button img{
+        width: 100%;
+    }
+
+    .login-details{
+        /* width: 100%; */
+        /* border: 1px solid purple; */
+    }
+
+
+    .bar-code-r h4{
+        display: none !important;
+    }
+
+    .bar-code-r img{
+        width: 100%;
+    }
+
+    .bar-code-r p{
+        display: none !important;
+    }
+    .login-details{
+        width: 100%;
+
+    }
+
+
+    footer{
+        padding: 10px;
+    }
+    
+}
+
+
+
+
+@media (max-width:320px) {
+    .login-main{
+        border: 1px solid blue;
+        /* width: 100% !important; */
+
+    }
+
+    nav{
+        /* display: flex !important; */
+        /* flex: 1 1 0%; */
+        width: 100%;
+    }
+    .bar-code-r{
+        border: 1px solid green;
+        width: 100%; 
+        /* height: 50vh;  */
+    }
+
+    footer{
+        padding-top: 25px;
+    }
+    
+   
+}
